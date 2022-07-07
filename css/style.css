@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+}
+
+#main{
+    position: relative;
+    background-color: #eeeeee;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 3rem;
+}
+
+
+#img-div{
+    position: relative;
+    background-color: white;
+    padding: 2rem;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+#img-caption {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+.timeline {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.timeline ul li {
+    padding: 1rem;
+}
+.center{
+    width: 50%;
+}
+.quote {
+    line-height: 1.5;
+}
+#tribute-info{
+    color: #444;
+    text-align: center;
+    width: 80%;
+    margin: 1.6rem auto;
+    font-size: 2rem;
+}
+
+#tribute-link {
+    color: skyblue;
+    text-decoration: none;
+}
